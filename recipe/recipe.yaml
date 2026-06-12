@@ -14,7 +14,7 @@ source:
     sha256: b478cc239a99baf6fdf889d123308a6b01a4521330bdb3f4def457feb0f7dfa0
 
 build:
-  number: 0
+  number: 1
   script: build.sh
   string: mpi_${{ mpi }}_h${{ hash }}_${{ build_number }}
   skip:
@@ -52,7 +52,7 @@ tests:
 about:
   homepage: https://github.com/eth-cscs/COSMA
   license: BSD-3-Clause
-  license_family: BSD 
+  license_family: BSD
   license_file: LICENSE
   summary: Communication-Optimal Matrix-Multiplication (COSMA)
   description: |
